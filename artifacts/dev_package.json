@@ -1,0 +1,61 @@
+{
+	"id": "3D726FF4-4F12-ED11-BD6E-000D3AB1D9FF",
+	"createdAt": "2022-08-02T10:43:34.116Z",
+	"createdBy": "kristin.eliassen@neptune-software.com",
+	"git": {
+		"targetServers": [],
+		"remote": "https://github.com/neptune-software-marketplace/neptunesoftware-dxp-abb-highchartstockmapdemo",
+		"testServers": []
+	},
+	"name": "neptunesoftware-dxp-abb-highchartstockmapdemo",
+	"description": null,
+	"ver": "22.8.2.1044",
+	"enableCICD": true,
+	"apps": [
+		{
+			"id": "E8B4E294-894D-4FFA-B606-13214F9DF5D2",
+			"ver": "22.8.2.1243",
+			"application": "p9_training_highcharts",
+			"title": "Highcharts",
+			"description": "Highcharts"
+		},
+		{
+			"id": "6B7C1147-EAD9-4CA1-A4E1-A7F68E06053E",
+			"ver": "22.8.2.1244",
+			"application": "p9_training_highstock",
+			"title": "Highstock",
+			"description": "Highstock"
+		},
+		{
+			"id": "7BED17E7-4B43-4C26-974E-AD7F50FE5769",
+			"ver": "22.8.2.1243",
+			"application": "p9_training_highmaps",
+			"title": "Highmaps",
+			"description": "Highmaps"
+		}
+	],
+	"api": [],
+	"odataMock": [],
+	"odataSource": [],
+	"dictionary": [],
+	"jsclass": [],
+	"jsscript_group": [],
+	"theme": [],
+	"pdf": [],
+	"rulesengine": [],
+	"reports": [],
+	"api_authentication": [],
+	"api_group": [],
+	"tile": [],
+	"category": [],
+	"launchpad": [],
+	"certificates": [],
+	"role": [],
+	"systems": [],
+	"doc": [],
+	"wf_notifications": [],
+	"wf_definition": [],
+	"department": [],
+	"script_scheduler": [],
+	"connector": []
+}

@@ -1,0 +1,2562 @@
+{
+	"id": "6b7c1147-ead9-4ca1-a4e1-a7f68e06053e",
+	"createdAt": "2022-02-04T15:51:33.240Z",
+	"updatedAt": "2022-08-02T10:44:13.120Z",
+	"createdBy": "luuk.wosten@neptune-software.com",
+	"changedBy": "kristin.eliassen@neptune-software.com",
+	"objects": [
+		{
+			"fieldNo": "c8d5868a-4915-469d-e105-fb8e211d6e8a",
+			"fieldName": "oShell",
+			"fieldParent": 0,
+			"fieldType": "sap.m.Shell",
+			"script": "",
+			"request": [],
+			"response": [],
+			"attributes": [],
+			"data": [
+				{
+					"fieldNo": "b185b8bf-5620-440b-b64f-a273cbebb805",
+					"fieldName": "oApp",
+					"fieldParent": "c8d5868a-4915-469d-e105-fb8e211d6e8a",
+					"fieldType": "sap.m.App",
+					"script": "",
+					"request": [],
+					"response": [],
+					"attributes": [
+						{
+							"attribute": "defaultTransitionName",
+							"grouping": "Properties",
+							"value": "show",
+							"script": "",
+							"translation": []
+						}
+					],
+					"data": [
+						{
+							"fieldNo": "7c44f533-d359-4dbc-bc7c-c0e9e14b6c61",
+							"fieldName": "oPageStart",
+							"fieldParent": "b185b8bf-5620-440b-b64f-a273cbebb805",
+							"fieldType": "sap.m.Page",
+							"script": "",
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "title",
+									"grouping": "Properties",
+									"value": "Highchart Examples",
+									"script": "",
+									"translation": []
+								}
+							],
+							"data": [
+								{
+									"fieldNo": "1a779296-8545-4baa-936a-dde202aaee8c",
+									"fieldName": "barCharts",
+									"fieldParent": "7c44f533-d359-4dbc-bc7c-c0e9e14b6c61",
+									"fieldType": "sap.m.IconTabBar",
+									"script": "",
+									"request": [],
+									"response": [],
+									"attributes": [],
+									"data": [
+										{
+											"fieldNo": "f7807663-44c0-4a22-b9d2-a035731714e8",
+											"fieldName": "barChartsGeneral",
+											"fieldParent": "1a779296-8545-4baa-936a-dde202aaee8c",
+											"fieldType": "sap.m.IconTabFilter",
+											"script": "",
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "General",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "icon",
+													"grouping": "Properties",
+													"value": "sap-icon://line-chart-time-axis",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "count",
+													"grouping": "Properties",
+													"value": "9",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": [
+												{
+													"fieldNo": "d55d56b6-7a77-4e03-b4d2-d6c2cb9aaea0",
+													"fieldName": "oBlockGeneral",
+													"fieldParent": "f7807663-44c0-4a22-b9d2-a035731714e8",
+													"fieldType": "sap.ui.layout.BlockLayout",
+													"script": "",
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "background",
+															"grouping": "Properties",
+															"value": "Dashboard",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": [
+														{
+															"fieldNo": "47953a7e-64de-41b7-8ef8-502c4a0f4731",
+															"fieldName": "oBlockGeneralRow1",
+															"fieldParent": "d55d56b6-7a77-4e03-b4d2-d6c2cb9aaea0",
+															"fieldType": "sap.ui.layout.BlockLayoutRow",
+															"script": "",
+															"request": [],
+															"response": [],
+															"attributes": [],
+															"data": [
+																{
+																	"fieldNo": "05691574-055a-4de2-f18d-9c6acc3f69de",
+																	"fieldName": "oBlockGeneralCell11",
+																	"fieldParent": "47953a7e-64de-41b7-8ef8-502c4a0f4731",
+																	"fieldType": "sap.ui.layout.BlockLayoutCell",
+																	"script": "",
+																	"request": [],
+																	"response": [],
+																	"attributes": [],
+																	"data": [
+																		{
+																			"fieldNo": "220f82d8-6511-4bac-a509-6b650f463bf3",
+																			"fieldName": "imgGeneralCell11",
+																			"fieldParent": "05691574-055a-4de2-f18d-9c6acc3f69de",
+																			"fieldType": "sap.m.Image",
+																			"script": "",
+																			"request": [],
+																			"response": [],
+																			"attributes": [
+																				{
+																					"attribute": "src",
+																					"grouping": "Properties",
+																					"value": "https://assets.highcharts.com/images/demo-thumbnails/highstock/basic-line-default.png",
+																					"script": "",
+																					"translation": []
+																				},
+																				{
+																					"attribute": "height",
+																					"grouping": "Properties",
+																					"value": "200px",
+																					"script": "",
+																					"translation": []
+																				}
+																			],
+																			"data": []
+																		},
+																		{
+																			"fieldNo": "1ce0d11f-72a5-4084-bfac-4ed4ad316f00",
+																			"fieldName": "linkGeneralCell11",
+																			"fieldParent": "05691574-055a-4de2-f18d-9c6acc3f69de",
+																			"fieldType": "sap.m.Link",
+																			"script": "",
+																			"request": [],
+																			"response": [],
+																			"attributes": [
+																				{
+																					"attribute": "text",
+																					"grouping": "Properties",
+																					"value": "Single line series",
+																					"script": "",
+																					"translation": []
+																				},
+																				{
+																					"attribute": "emphasized",
+																					"grouping": "Properties",
+																					"value": "true",
+																					"script": "",
+																					"translation": []
+																				},
+																				{
+																					"attribute": "press",
+																					"grouping": "Events",
+																					"value": "handleLink(this);",
+																					"script": "handleLink(this);",
+																					"translation": []
+																				}
+																			],
+																			"data": []
+																		}
+																	]
+																},
+																{
+																	"fieldNo": "0719e5ab-7103-4db2-e863-1a58cf326e53",
+																	"fieldName": "oBlockGeneralCell12",
+																	"fieldParent": "47953a7e-64de-41b7-8ef8-502c4a0f4731",
+																	"fieldType": "sap.ui.layout.BlockLayoutCell",
+																	"script": "",
+																	"request": [],
+																	"response": [],
+																	"attributes": [],
+																	"data": [
+																		{
+																			"fieldNo": "89e34ad4-fe89-4884-baa9-027328698624",
+																			"fieldName": "imgGeneralCell12",
+																			"fieldParent": "0719e5ab-7103-4db2-e863-1a58cf326e53",
+																			"fieldType": "sap.m.Image",
+																			"script": "",
+																			"request": [],
+																			"response": [],
+																			"attributes": [
+																				{
+																					"attribute": "src",
+																					"grouping": "Properties",
+																					"value": "https://assets.highcharts.com/images/demo-thumbnails/highstock/candlestick-and-volume-default.png",
+																					"script": "",
+																					"translation": []
+																				},
+																				{
+																					"attribute": "height",
+																					"grouping": "Properties",
+																					"value": "200px",
+																					"script": "",
+																					"translation": []
+																				}
+																			],
+																			"data": []
+																		},
+																		{
+																			"fieldNo": "76231645-0a1c-4c3d-a8af-7811abca7c66",
+																			"fieldName": "linkGeneralCell12",
+																			"fieldParent": "0719e5ab-7103-4db2-e863-1a58cf326e53",
+																			"fieldType": "sap.m.Link",
+																			"script": "",
+																			"request": [],
+																			"response": [],
+																			"attributes": [
+																				{
+																					"attribute": "text",
+																					"grouping": "Properties",
+																					"value": "Two panes, candlestick and volume",
+																					"script": "",
+																					"translation": []
+																				},
+																				{
+																					"attribute": "emphasized",
+																					"grouping": "Properties",
+																					"value": "true",
+																					"script": "",
+																					"translation": []
+																				},
+																				{
+																					"attribute": "press",
+																					"grouping": "Events",
+																					"value": "handleLink(this);",
+																					"script": "handleLink(this);",
+																					"translation": []
+																				}
+																			],
+																			"data": []
+																		}
+																	]
+																},
+																{
+																	"fieldNo": "84bb4f33-550b-4707-ac77-ef2f4a81ce70",
+																	"fieldName": "oBlockGeneralCell13",
+																	"fieldParent": "47953a7e-64de-41b7-8ef8-502c4a0f4731",
+																	"fieldType": "sap.ui.layout.BlockLayoutCell",
+																	"script": "",
+																	"request": [],
+																	"response": [],
+																	"attributes": [],
+																	"data": [
+																		{
+																			"fieldNo": "40f96e95-e35e-4838-b54b-8941b898d389",
+																			"fieldName": "imgGeneralCell13",
+																			"fieldParent": "84bb4f33-550b-4707-ac77-ef2f4a81ce70",
+																			"fieldType": "sap.m.Image",
+																			"script": "",
+																			"request": [],
+																			"response": [],
+																			"attributes": [
+																				{
+																					"attribute": "src",
+																					"grouping": "Properties",
+																					"value": "https://assets.highcharts.com/images/demo-thumbnails/highstock/compare-default.png",
+																					"script": "",
+																					"translation": []
+																				},
+																				{
+																					"attribute": "height",
+																					"grouping": "Properties",
+																					"value": "200px",
+																					"script": "",
+																					"translation": []
+																				},
+																				{
+																					"attribute": "press",
+																					"grouping": "Events",
+																					"value": "oApp.to(oPageChart);",
+																					"script": "oApp.to(oPageChart);",
+																					"translation": []
+																				}
+																			],
+																			"data": []
+																		},
+																		{
+																			"fieldNo": "265d8b7a-4c3c-4335-956a-03ae45f54ca6",
+																			"fieldName": "linkGeneralCell13",
+																			"fieldParent": "84bb4f33-550b-4707-ac77-ef2f4a81ce70",
+																			"fieldType": "sap.m.Link",
+																			"script": "",
+																			"request": [],
+																			"response": [],
+																			"attributes": [
+																				{
+																					"attribute": "text",
+																					"grouping": "Properties",
+																					"value": "Compare multiple series",
+																					"script": "",
+																					"translation": []
+																				},
+																				{
+																					"attribute": "emphasized",
+																					"grouping": "Properties",
+																					"value": "true",
+																					"script": "",
+																					"translation": []
+																				},
+																				{
+																					"attribute": "press",
+																					"grouping": "Events",
+																					"value": "handleLink(this);",
+																					"script": "handleLink(this);",
+																					"translation": []
+																				}
+																			],
+																			"data": []
+																		}
+																	]
+																}
+															]
+														},
+														{
+															"fieldNo": "c8b89136-ac4a-478b-c8ea-d788463fd7a4",
+															"fieldName": "oBlockGeneralRow2",
+															"fieldParent": "d55d56b6-7a77-4e03-b4d2-d6c2cb9aaea0",
+															"fieldType": "sap.ui.layout.BlockLayoutRow",
+															"script": "",
+															"request": [],
+															"response": [],
+															"attributes": [],
+															"data": [
+																{
+																	"fieldNo": "6bd66258-61d0-4eb8-e7b8-99213838b8a0",
+																	"fieldName": "oBlockGeneralCell21",
+																	"fieldParent": "c8b89136-ac4a-478b-c8ea-d788463fd7a4",
+																	"fieldType": "sap.ui.layout.BlockLayoutCell",
+																	"script": "",
+																	"request": [],
+																	"response": [],
+																	"attributes": [],
+																	"data": [
+																		{
+																			"fieldNo": "26a638b5-6eec-4093-80cb-ddca481b576b",
+																			"fieldName": "imgGeneralCell21",
+																			"fieldParent": "6bd66258-61d0-4eb8-e7b8-99213838b8a0",
+																			"fieldType": "sap.m.Image",
+																			"script": "",
+																			"request": [],
+																			"response": [],
+																			"attributes": [
+																				{
+																					"attribute": "src",
+																					"grouping": "Properties",
+																					"value": "https://assets.highcharts.com/images/demo-thumbnails/highstock/data-grouping-default.png",
+																					"script": "",
+																					"translation": []
+																				},
+																				{
+																					"attribute": "height",
+																					"grouping": "Properties",
+																					"value": "200px",
+																					"script": "",
+																					"translation": []
+																				}
+																			],
+																			"data": []
+																		},
+																		{
+																			"fieldNo": "8fc35026-9bad-438a-dcbb-9fdfeceacb3e",
+																			"fieldName": "linkGeneralCell21",
+																			"fieldParent": "6bd66258-61d0-4eb8-e7b8-99213838b8a0",
+																			"fieldType": "sap.m.Link",
+																			"script": "",
+																			"request": [],
+																			"response": [],
+																			"attributes": [
+																				{
+																					"attribute": "text",
+																					"grouping": "Properties",
+																					"value": "52,000 points with data grouping",
+																					"script": "",
+																					"translation": []
+																				},
+																				{
+																					"attribute": "emphasized",
+																					"grouping": "Properties",
+																					"value": "true",
+																					"script": "",
+																					"translation": []
+																				},
+																				{
+																					"attribute": "press",
+																					"grouping": "Events",
+																					"value": "handleLink(this);",
+																					"script": "handleLink(this);",
+																					"translation": []
+																				}
+																			],
+																			"data": []
+																		}
+																	]
+																},
+																{
+																	"fieldNo": "9903fabc-200f-43c3-9a5a-705f8352286c",
+																	"fieldName": "oBlockGeneralCell22",
+																	"fieldParent": "c8b89136-ac4a-478b-c8ea-d788463fd7a4",
+																	"fieldType": "sap.ui.layout.BlockLayoutCell",
+																	"script": "",
+																	"request": [],
+																	"response": [],
+																	"attributes": [],
+																	"data": [
+																		{
+																			"fieldNo": "32a23983-6cf1-40e2-a688-07575678aab3",
+																			"fieldName": "imgGeneralCell22",
+																			"fieldParent": "9903fabc-200f-43c3-9a5a-705f8352286c",
+																			"fieldType": "sap.m.Image",
+																			"script": "",
+																			"request": [],
+																			"response": [],
+																			"attributes": [
+																				{
+																					"attribute": "src",
+																					"grouping": "Properties",
+																					"value": "https://assets.highcharts.com/images/demo-thumbnails/highstock/lazy-loading-default.png",
+																					"script": "",
+																					"translation": []
+																				},
+																				{
+																					"attribute": "height",
+																					"grouping": "Properties",
+																					"value": "200px",
+																					"script": "",
+																					"translation": []
+																				}
+																			],
+																			"data": []
+																		},
+																		{
+																			"fieldNo": "248bd6ec-c6e1-4871-897d-5f91f4cdce2e",
+																			"fieldName": "linkGeneralCell22",
+																			"fieldParent": "9903fabc-200f-43c3-9a5a-705f8352286c",
+																			"fieldType": "sap.m.Link",
+																			"script": "",
+																			"request": [],
+																			"response": [],
+																			"attributes": [
+																				{
+																					"attribute": "text",
+																					"grouping": "Properties",
+																					"value": "1.7 million points with async loading",
+																					"script": "",
+																					"translation": []
+																				},
+																				{
+																					"attribute": "emphasized",
+																					"grouping": "Properties",
+																					"value": "true",
+																					"script": "",
+																					"translation": []
+																				},
+																				{
+																					"attribute": "press",
+																					"grouping": "Events",
+																					"value": "handleLink(this);",
+																					"script": "handleLink(this);",
+																					"translation": []
+																				}
+																			],
+																			"data": []
+																		}
+																	]
+																},
+																{
+																	"fieldNo": "74dbb9a8-82e1-49d8-9168-c67306f3d875",
+																	"fieldName": "oBlockGeneralCell23",
+																	"fieldParent": "c8b89136-ac4a-478b-c8ea-d788463fd7a4",
+																	"fieldType": "sap.ui.layout.BlockLayoutCell",
+																	"script": "",
+																	"request": [],
+																	"response": [],
+																	"attributes": [],
+																	"data": [
+																		{
+																			"fieldNo": "253a9a14-0098-476b-aaa4-8c0d5f6da285",
+																			"fieldName": "imgGeneralCell23",
+																			"fieldParent": "74dbb9a8-82e1-49d8-9168-c67306f3d875",
+																			"fieldType": "sap.m.Image",
+																			"script": "",
+																			"request": [],
+																			"response": [],
+																			"attributes": [
+																				{
+																					"attribute": "src",
+																					"grouping": "Properties",
+																					"value": "https://assets.highcharts.com/images/demo-thumbnails/highstock/intraday-area-default.png",
+																					"script": "",
+																					"translation": []
+																				},
+																				{
+																					"attribute": "height",
+																					"grouping": "Properties",
+																					"value": "200px",
+																					"script": "",
+																					"translation": []
+																				},
+																				{
+																					"attribute": "press",
+																					"grouping": "Events",
+																					"value": "oApp.to(oPageChart);",
+																					"script": "oApp.to(oPageChart);",
+																					"translation": []
+																				}
+																			],
+																			"data": []
+																		},
+																		{
+																			"fieldNo": "7136f5ca-dc36-44c8-91d8-22e3b1322be9",
+																			"fieldName": "linkGeneralCell23",
+																			"fieldParent": "74dbb9a8-82e1-49d8-9168-c67306f3d875",
+																			"fieldType": "sap.m.Link",
+																			"script": "",
+																			"request": [],
+																			"response": [],
+																			"attributes": [
+																				{
+																					"attribute": "text",
+																					"grouping": "Properties",
+																					"value": "Intraday area",
+																					"script": "",
+																					"translation": []
+																				},
+																				{
+																					"attribute": "emphasized",
+																					"grouping": "Properties",
+																					"value": "true",
+																					"script": "",
+																					"translation": []
+																				},
+																				{
+																					"attribute": "press",
+																					"grouping": "Events",
+																					"value": "handleLink(this);",
+																					"script": "handleLink(this);",
+																					"translation": []
+																				}
+																			],
+																			"data": []
+																		}
+																	]
+																}
+															]
+														},
+														{
+															"fieldNo": "2bfbe010-9720-49e0-a0db-708027f7f6d5",
+															"fieldName": "oBlockGeneralRow3",
+															"fieldParent": "d55d56b6-7a77-4e03-b4d2-d6c2cb9aaea0",
+															"fieldType": "sap.ui.layout.BlockLayoutRow",
+															"script": "",
+															"request": [],
+															"response": [],
+															"attributes": [],
+															"data": [
+																{
+																	"fieldNo": "847d02a3-aef6-40d6-cea4-fee565ff4ebb",
+																	"fieldName": "oBlockGeneralCell31",
+																	"fieldParent": "2bfbe010-9720-49e0-a0db-708027f7f6d5",
+																	"fieldType": "sap.ui.layout.BlockLayoutCell",
+																	"script": "",
+																	"request": [],
+																	"response": [],
+																	"attributes": [],
+																	"data": [
+																		{
+																			"fieldNo": "2399cd13-4cbf-4906-828d-7a56fde78fc9",
+																			"fieldName": "imgGeneralCell31",
+																			"fieldParent": "847d02a3-aef6-40d6-cea4-fee565ff4ebb",
+																			"fieldType": "sap.m.Image",
+																			"script": "",
+																			"request": [],
+																			"response": [],
+																			"attributes": [
+																				{
+																					"attribute": "src",
+																					"grouping": "Properties",
+																					"value": "https://assets.highcharts.com/images/demo-thumbnails/highstock/intraday-breaks-default.png",
+																					"script": "",
+																					"translation": []
+																				},
+																				{
+																					"attribute": "height",
+																					"grouping": "Properties",
+																					"value": "200px",
+																					"script": "",
+																					"translation": []
+																				}
+																			],
+																			"data": []
+																		},
+																		{
+																			"fieldNo": "c40d5775-e79e-49cf-9939-51963b6c8059",
+																			"fieldName": "linkGeneralCell31",
+																			"fieldParent": "847d02a3-aef6-40d6-cea4-fee565ff4ebb",
+																			"fieldType": "sap.m.Link",
+																			"script": "",
+																			"request": [],
+																			"response": [],
+																			"attributes": [
+																				{
+																					"attribute": "text",
+																					"grouping": "Properties",
+																					"value": "Intraday with breaks",
+																					"script": "",
+																					"translation": []
+																				},
+																				{
+																					"attribute": "emphasized",
+																					"grouping": "Properties",
+																					"value": "true",
+																					"script": "",
+																					"translation": []
+																				},
+																				{
+																					"attribute": "press",
+																					"grouping": "Events",
+																					"value": "handleLink(this);",
+																					"script": "handleLink(this);",
+																					"translation": []
+																				}
+																			],
+																			"data": []
+																		}
+																	]
+																},
+																{
+																	"fieldNo": "9f7b2d50-ad1c-4967-be3b-ec265c50c85d",
+																	"fieldName": "oBlockGeneralCell32",
+																	"fieldParent": "2bfbe010-9720-49e0-a0db-708027f7f6d5",
+																	"fieldType": "sap.ui.layout.BlockLayoutCell",
+																	"script": "",
+																	"request": [],
+																	"response": [],
+																	"attributes": [],
+																	"data": [
+																		{
+																			"fieldNo": "71d3484f-2f07-4fd3-8501-e61c0cf96fc1",
+																			"fieldName": "imgGeneralCell32",
+																			"fieldParent": "9f7b2d50-ad1c-4967-be3b-ec265c50c85d",
+																			"fieldType": "sap.m.Image",
+																			"script": "",
+																			"request": [],
+																			"response": [],
+																			"attributes": [
+																				{
+																					"attribute": "src",
+																					"grouping": "Properties",
+																					"value": "https://assets.highcharts.com/images/demo-thumbnails/highstock/intraday-candlestick-default.png",
+																					"script": "",
+																					"translation": []
+																				},
+																				{
+																					"attribute": "height",
+																					"grouping": "Properties",
+																					"value": "200px",
+																					"script": "",
+																					"translation": []
+																				}
+																			],
+																			"data": []
+																		},
+																		{
+																			"fieldNo": "446dc243-64a6-4027-acb5-0f5548000a1a",
+																			"fieldName": "linkGeneralCell32",
+																			"fieldParent": "9f7b2d50-ad1c-4967-be3b-ec265c50c85d",
+																			"fieldType": "sap.m.Link",
+																			"script": "",
+																			"request": [],
+																			"response": [],
+																			"attributes": [
+																				{
+																					"attribute": "text",
+																					"grouping": "Properties",
+																					"value": "Intraday candlestick",
+																					"script": "",
+																					"translation": []
+																				},
+																				{
+																					"attribute": "emphasized",
+																					"grouping": "Properties",
+																					"value": "true",
+																					"script": "",
+																					"translation": []
+																				},
+																				{
+																					"attribute": "press",
+																					"grouping": "Events",
+																					"value": "handleLink(this);",
+																					"script": "handleLink(this);",
+																					"translation": []
+																				}
+																			],
+																			"data": []
+																		}
+																	]
+																},
+																{
+																	"fieldNo": "3e909dcc-b8e7-49b2-fbf7-ca511edd3b2c",
+																	"fieldName": "oBlockGeneralCell33",
+																	"fieldParent": "2bfbe010-9720-49e0-a0db-708027f7f6d5",
+																	"fieldType": "sap.ui.layout.BlockLayoutCell",
+																	"script": "",
+																	"request": [],
+																	"response": [],
+																	"attributes": [],
+																	"data": [
+																		{
+																			"fieldNo": "d9502bff-4153-4fdd-aa5b-ac879c848886",
+																			"fieldName": "imgGeneralCell33",
+																			"fieldParent": "3e909dcc-b8e7-49b2-fbf7-ca511edd3b2c",
+																			"fieldType": "sap.m.Image",
+																			"script": "",
+																			"request": [],
+																			"response": [],
+																			"attributes": [
+																				{
+																					"attribute": "src",
+																					"grouping": "Properties",
+																					"value": "https://assets.highcharts.com/images/demo-thumbnails/highstock/flags-general-default.png",
+																					"script": "",
+																					"translation": []
+																				},
+																				{
+																					"attribute": "height",
+																					"grouping": "Properties",
+																					"value": "200px",
+																					"script": "",
+																					"translation": []
+																				},
+																				{
+																					"attribute": "press",
+																					"grouping": "Events",
+																					"value": "oApp.to(oPageChart);",
+																					"script": "oApp.to(oPageChart);",
+																					"translation": []
+																				}
+																			],
+																			"data": []
+																		},
+																		{
+																			"fieldNo": "ff9ac610-a8a4-429d-abb6-83117fb03830",
+																			"fieldName": "linkGeneralCell33",
+																			"fieldParent": "3e909dcc-b8e7-49b2-fbf7-ca511edd3b2c",
+																			"fieldType": "sap.m.Link",
+																			"script": "",
+																			"request": [],
+																			"response": [],
+																			"attributes": [
+																				{
+																					"attribute": "text",
+																					"grouping": "Properties",
+																					"value": "Flags marking events",
+																					"script": "",
+																					"translation": []
+																				},
+																				{
+																					"attribute": "emphasized",
+																					"grouping": "Properties",
+																					"value": "true",
+																					"script": "",
+																					"translation": []
+																				},
+																				{
+																					"attribute": "press",
+																					"grouping": "Events",
+																					"value": "handleLink(this);",
+																					"script": "handleLink(this);",
+																					"translation": []
+																				}
+																			],
+																			"data": []
+																		}
+																	]
+																}
+															]
+														}
+													]
+												}
+											]
+										},
+										{
+											"fieldNo": "ea2ad956-4783-4b0d-b7a5-e8ad4f6a399b",
+											"fieldName": "barChartsTypes",
+											"fieldParent": "1a779296-8545-4baa-936a-dde202aaee8c",
+											"fieldType": "sap.m.IconTabFilter",
+											"script": "",
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "Types",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "icon",
+													"grouping": "Properties",
+													"value": "sap-icon://multiple-line-chart",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "count",
+													"grouping": "Properties",
+													"value": "9",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": [
+												{
+													"fieldNo": "46be5e35-d841-4cab-8244-cc72103aa08d",
+													"fieldName": "oBlockTypes",
+													"fieldParent": "ea2ad956-4783-4b0d-b7a5-e8ad4f6a399b",
+													"fieldType": "sap.ui.layout.BlockLayout",
+													"script": "",
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "background",
+															"grouping": "Properties",
+															"value": "Dashboard",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": [
+														{
+															"fieldNo": "b99eb87f-526a-4870-b291-77f06263297b",
+															"fieldName": "oBlockTypesRow1",
+															"fieldParent": "46be5e35-d841-4cab-8244-cc72103aa08d",
+															"fieldType": "sap.ui.layout.BlockLayoutRow",
+															"script": "",
+															"request": [],
+															"response": [],
+															"attributes": [],
+															"data": [
+																{
+																	"fieldNo": "1766505a-af75-4d4b-e7c5-d774c150925a",
+																	"fieldName": "oBlockTypesCell11",
+																	"fieldParent": "b99eb87f-526a-4870-b291-77f06263297b",
+																	"fieldType": "sap.ui.layout.BlockLayoutCell",
+																	"script": "",
+																	"request": [],
+																	"response": [],
+																	"attributes": [],
+																	"data": [
+																		{
+																			"fieldNo": "7fc3308e-e7a7-4bfd-d63f-6942ae5a8c6f",
+																			"fieldName": "imgTypesCell11",
+																			"fieldParent": "1766505a-af75-4d4b-e7c5-d774c150925a",
+																			"fieldType": "sap.m.Image",
+																			"script": "",
+																			"request": [],
+																			"response": [],
+																			"attributes": [
+																				{
+																					"attribute": "src",
+																					"grouping": "Properties",
+																					"value": "https://assets.highcharts.com/images/demo-thumbnails/highstock/line-markers-default.png",
+																					"script": "",
+																					"translation": []
+																				},
+																				{
+																					"attribute": "height",
+																					"grouping": "Properties",
+																					"value": "200px",
+																					"script": "",
+																					"translation": []
+																				}
+																			],
+																			"data": []
+																		},
+																		{
+																			"fieldNo": "afe6bae3-e911-4428-da31-5139dc7046cd",
+																			"fieldName": "linkTypesCell11",
+																			"fieldParent": "1766505a-af75-4d4b-e7c5-d774c150925a",
+																			"fieldType": "sap.m.Link",
+																			"script": "",
+																			"request": [],
+																			"response": [],
+																			"attributes": [
+																				{
+																					"attribute": "text",
+																					"grouping": "Properties",
+																					"value": "Line with markers and shadow",
+																					"script": "",
+																					"translation": []
+																				},
+																				{
+																					"attribute": "emphasized",
+																					"grouping": "Properties",
+																					"value": "true",
+																					"script": "",
+																					"translation": []
+																				},
+																				{
+																					"attribute": "press",
+																					"grouping": "Events",
+																					"value": "handleLink(this);",
+																					"script": "handleLink(this);",
+																					"translation": []
+																				}
+																			],
+																			"data": []
+																		}
+																	]
+																},
+																{
+																	"fieldNo": "13bdfab3-0263-4547-fd5e-b490f586742e",
+																	"fieldName": "oBlockTypesCell12",
+																	"fieldParent": "b99eb87f-526a-4870-b291-77f06263297b",
+																	"fieldType": "sap.ui.layout.BlockLayoutCell",
+																	"script": "",
+																	"request": [],
+																	"response": [],
+																	"attributes": [],
+																	"data": [
+																		{
+																			"fieldNo": "e11f5063-0dac-4f6f-f7be-6d300169f3f2",
+																			"fieldName": "imgTypesCell12",
+																			"fieldParent": "13bdfab3-0263-4547-fd5e-b490f586742e",
+																			"fieldType": "sap.m.Image",
+																			"script": "",
+																			"request": [],
+																			"response": [],
+																			"attributes": [
+																				{
+																					"attribute": "src",
+																					"grouping": "Properties",
+																					"value": "https://assets.highcharts.com/images/demo-thumbnails/highstock/spline-default.png",
+																					"script": "",
+																					"translation": []
+																				},
+																				{
+																					"attribute": "height",
+																					"grouping": "Properties",
+																					"value": "200px",
+																					"script": "",
+																					"translation": []
+																				}
+																			],
+																			"data": []
+																		},
+																		{
+																			"fieldNo": "1d65aef4-3e24-4d80-8cbc-6ffab302dd08",
+																			"fieldName": "linkTypesCell12",
+																			"fieldParent": "13bdfab3-0263-4547-fd5e-b490f586742e",
+																			"fieldType": "sap.m.Link",
+																			"script": "",
+																			"request": [],
+																			"response": [],
+																			"attributes": [
+																				{
+																					"attribute": "text",
+																					"grouping": "Properties",
+																					"value": "Two panes, candlestick and volume",
+																					"script": "",
+																					"translation": []
+																				},
+																				{
+																					"attribute": "emphasized",
+																					"grouping": "Properties",
+																					"value": "true",
+																					"script": "",
+																					"translation": []
+																				},
+																				{
+																					"attribute": "press",
+																					"grouping": "Events",
+																					"value": "handleLink(this);",
+																					"script": "handleLink(this);",
+																					"translation": []
+																				}
+																			],
+																			"data": []
+																		}
+																	]
+																},
+																{
+																	"fieldNo": "f04a204a-93a4-4e16-bb49-ee9794513aef",
+																	"fieldName": "oBlockTypesCell13",
+																	"fieldParent": "b99eb87f-526a-4870-b291-77f06263297b",
+																	"fieldType": "sap.ui.layout.BlockLayoutCell",
+																	"script": "",
+																	"request": [],
+																	"response": [],
+																	"attributes": [],
+																	"data": [
+																		{
+																			"fieldNo": "17a9ff76-b486-4745-892e-407e30aa7797",
+																			"fieldName": "imgTypesCell13",
+																			"fieldParent": "f04a204a-93a4-4e16-bb49-ee9794513aef",
+																			"fieldType": "sap.m.Image",
+																			"script": "",
+																			"request": [],
+																			"response": [],
+																			"attributes": [
+																				{
+																					"attribute": "src",
+																					"grouping": "Properties",
+																					"value": "https://assets.highcharts.com/images/demo-thumbnails/highstock/step-line-default.png",
+																					"script": "",
+																					"translation": []
+																				},
+																				{
+																					"attribute": "height",
+																					"grouping": "Properties",
+																					"value": "200px",
+																					"script": "",
+																					"translation": []
+																				},
+																				{
+																					"attribute": "press",
+																					"grouping": "Events",
+																					"value": "oApp.to(oPageChart);",
+																					"script": "oApp.to(oPageChart);",
+																					"translation": []
+																				}
+																			],
+																			"data": []
+																		},
+																		{
+																			"fieldNo": "729eddae-2e75-4bdc-e529-80e0bff26efa",
+																			"fieldName": "linkTypesCell13",
+																			"fieldParent": "f04a204a-93a4-4e16-bb49-ee9794513aef",
+																			"fieldType": "sap.m.Link",
+																			"script": "",
+																			"request": [],
+																			"response": [],
+																			"attributes": [
+																				{
+																					"attribute": "text",
+																					"grouping": "Properties",
+																					"value": "Compare multiple series",
+																					"script": "",
+																					"translation": []
+																				},
+																				{
+																					"attribute": "emphasized",
+																					"grouping": "Properties",
+																					"value": "true",
+																					"script": "",
+																					"translation": []
+																				},
+																				{
+																					"attribute": "press",
+																					"grouping": "Events",
+																					"value": "handleLink(this);",
+																					"script": "handleLink(this);",
+																					"translation": []
+																				}
+																			],
+																			"data": []
+																		}
+																	]
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"fieldNo": "c4e6ef05-3733-40ad-bc46-6c0ec7360276",
+									"fieldName": "oFooterStart",
+									"fieldParent": "7c44f533-d359-4dbc-bc7c-c0e9e14b6c61",
+									"fieldType": "sap.m.Bar",
+									"script": "",
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "position",
+											"grouping": "Parent",
+											"value": "setFooter",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": [
+										{
+											"fieldNo": "adee01a8-6791-4e4a-d5d8-c3f37f597a81",
+											"fieldName": "Left",
+											"fieldParent": "c4e6ef05-3733-40ad-bc46-6c0ec7360276",
+											"fieldType": "neptune.BarContent",
+											"script": "",
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "position",
+													"grouping": "Parent",
+													"value": "ContentLeft",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": [
+												{
+													"fieldNo": "29231da2-9e40-49f1-95aa-597f9edcb407",
+													"fieldName": "oButton",
+													"fieldParent": "adee01a8-6791-4e4a-d5d8-c3f37f597a81",
+													"fieldType": "sap.m.Button",
+													"script": "",
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "type",
+															"grouping": "Properties",
+															"value": "Emphasized",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "text",
+															"grouping": "Properties",
+															"value": "Open In App Designer",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "press",
+															"grouping": "Events",
+															"value": "Anonymous Function",
+															"script": [
+																"==OBJECT STRING==",
+																"var res = localAppID.toLowerCase();",
+																"sap.m.URLHelper.redirect(\"/appdesigner.html?application=\" + res , true);"
+															],
+															"translation": []
+														}
+													],
+													"data": []
+												}
+											]
+										},
+										{
+											"fieldNo": "a0455c3c-2a54-46fe-b08c-fb7be5c9bd0e",
+											"fieldName": "Right",
+											"fieldParent": "c4e6ef05-3733-40ad-bc46-6c0ec7360276",
+											"fieldType": "neptune.BarContent",
+											"script": "",
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "position",
+													"grouping": "Parent",
+													"value": "ContentRight",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": [
+												{
+													"fieldNo": "c756068e-b566-403a-a561-4a7e458f7e4b",
+													"fieldName": "txtTheme",
+													"fieldParent": "a0455c3c-2a54-46fe-b08c-fb7be5c9bd0e",
+													"fieldType": "sap.m.Label",
+													"script": "",
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "text",
+															"grouping": "Properties",
+															"value": "Theme",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												},
+												{
+													"fieldNo": "f8c80149-b85c-41d0-c873-f1f4401b1f61",
+													"fieldName": "selTheme",
+													"fieldParent": "a0455c3c-2a54-46fe-b08c-fb7be5c9bd0e",
+													"fieldType": "sap.m.Select",
+													"script": "",
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "change",
+															"grouping": "Events",
+															"value": "addScript(\"/public/highsuite/themes/\" + this.getSelectedKey() + \".js\");",
+															"script": "addScript(\"/public/highsuite/themes/\" + this.getSelectedKey() + \".js\");",
+															"translation": []
+														}
+													],
+													"data": [
+														{
+															"fieldNo": "c176b99b-b7ff-48d2-a468-f388da11fd03",
+															"fieldName": "itemThemeDefault",
+															"fieldParent": "f8c80149-b85c-41d0-c873-f1f4401b1f61",
+															"fieldType": "sap.ui.core.Item",
+															"script": "",
+															"request": [],
+															"response": [],
+															"attributes": [],
+															"data": []
+														},
+														{
+															"fieldNo": "9e520d66-366d-4556-e5e5-eeef42afe5c8",
+															"fieldName": "itemThemeAvocado",
+															"fieldParent": "f8c80149-b85c-41d0-c873-f1f4401b1f61",
+															"fieldType": "sap.ui.core.Item",
+															"script": "",
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "Avocado",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "key",
+																	"grouping": "Properties",
+																	"value": "avocado",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														},
+														{
+															"fieldNo": "ca87d1a9-5b1a-4de7-da42-f03ea507679e",
+															"fieldName": "itemThemeDarkBlue",
+															"fieldParent": "f8c80149-b85c-41d0-c873-f1f4401b1f61",
+															"fieldType": "sap.ui.core.Item",
+															"script": "",
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "Dark Blue",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "key",
+																	"grouping": "Properties",
+																	"value": "dark-blue",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														},
+														{
+															"fieldNo": "32c8b84a-4121-4942-f313-65ae436477af",
+															"fieldName": "itemThemeGreen",
+															"fieldParent": "f8c80149-b85c-41d0-c873-f1f4401b1f61",
+															"fieldType": "sap.ui.core.Item",
+															"script": "",
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "Green",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "key",
+																	"grouping": "Properties",
+																	"value": "green",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														},
+														{
+															"fieldNo": "bbc300c8-b187-4f25-f1e4-a32a2c4ae872",
+															"fieldName": "itemThemeDarkUnica",
+															"fieldParent": "f8c80149-b85c-41d0-c873-f1f4401b1f61",
+															"fieldType": "sap.ui.core.Item",
+															"script": "",
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "Dark Unica",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "key",
+																	"grouping": "Properties",
+																	"value": "dark-unica",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														},
+														{
+															"fieldNo": "7774ad83-aea7-49bf-e2a2-d588277bb9ad",
+															"fieldName": "itemThemeGray",
+															"fieldParent": "f8c80149-b85c-41d0-c873-f1f4401b1f61",
+															"fieldType": "sap.ui.core.Item",
+															"script": "",
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "Gray",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "key",
+																	"grouping": "Properties",
+																	"value": "gray",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														},
+														{
+															"fieldNo": "38b118a0-b9ed-4bfa-a0eb-9cc47dd8c9a1",
+															"fieldName": "itemThemeGrid",
+															"fieldParent": "f8c80149-b85c-41d0-c873-f1f4401b1f61",
+															"fieldType": "sap.ui.core.Item",
+															"script": "",
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "Grid",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "key",
+																	"grouping": "Properties",
+																	"value": "grid",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														},
+														{
+															"fieldNo": "a4ebc84d-5399-4aff-86ac-3035dc9fcafa",
+															"fieldName": "itemThemeGridLight",
+															"fieldParent": "f8c80149-b85c-41d0-c873-f1f4401b1f61",
+															"fieldType": "sap.ui.core.Item",
+															"script": "",
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "Grid Light",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "key",
+																	"grouping": "Properties",
+																	"value": "grid-light",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														},
+														{
+															"fieldNo": "c6bf1e52-9a2a-4208-f709-f5728188609a",
+															"fieldName": "itemThemeSandSignika",
+															"fieldParent": "f8c80149-b85c-41d0-c873-f1f4401b1f61",
+															"fieldType": "sap.ui.core.Item",
+															"script": "",
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "Sand Signika",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "key",
+																	"grouping": "Properties",
+																	"value": "sand-signika",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														},
+														{
+															"fieldNo": "d704d11a-113f-4b35-ded8-233944efdd70",
+															"fieldName": "itemThemeSkies",
+															"fieldParent": "f8c80149-b85c-41d0-c873-f1f4401b1f61",
+															"fieldType": "sap.ui.core.Item",
+															"script": "",
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "Skies",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "key",
+																	"grouping": "Properties",
+																	"value": "skies",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														},
+														{
+															"fieldNo": "071b1360-a3df-43d3-90c1-98dca3e7291f",
+															"fieldName": "itemThemeSunset",
+															"fieldParent": "f8c80149-b85c-41d0-c873-f1f4401b1f61",
+															"fieldType": "sap.ui.core.Item",
+															"script": "",
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "Sunset",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "key",
+																	"grouping": "Properties",
+																	"value": "sunset",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"fieldNo": "dd7cdf42-83c2-4c01-deaa-a54f212032b5",
+							"fieldName": "oPageChart",
+							"fieldParent": "b185b8bf-5620-440b-b64f-a273cbebb805",
+							"fieldType": "sap.m.Page",
+							"script": "",
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "showNavButton",
+									"grouping": "Properties",
+									"value": "true",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "enableScrolling",
+									"grouping": "Properties",
+									"value": "false",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "navButtonPress",
+									"grouping": "Events",
+									"value": "oApp.back();",
+									"script": "oApp.back();",
+									"translation": []
+								}
+							],
+							"data": [
+								{
+									"fieldNo": "306acc80-7fad-4554-f3a4-f432468cb77f",
+									"fieldName": "htmlChart",
+									"fieldParent": "dd7cdf42-83c2-4c01-deaa-a54f212032b5",
+									"fieldType": "sap.ui.core.HTML",
+									"script": "",
+									"request": [],
+									"response": [],
+									"attributes": [],
+									"data": [
+										{
+											"fieldNo": "e8515f52-857c-4ca4-c786-77a19ab11fcc",
+											"fieldName": "divChart",
+											"fieldParent": "306acc80-7fad-4554-f3a4-f432468cb77f",
+											"fieldType": "neptune.Html",
+											"script": [
+												"==OBJECT STRING==",
+												"<div id=\"containerStock\"></div>",
+												"",
+												"<style>",
+												"    #containerStock {",
+												"        width: 100%;",
+												"        height: 100%;",
+												"        margin: 0 auto",
+												"    }",
+												"    .chart {",
+												"        min-width: 320px;",
+												"        max-width: 800px;",
+												"        height: 220px;",
+												"        margin: 0 auto;",
+												"    }",
+												"    .sapMLnk {",
+												"        font-size: 1.05rem !important;",
+												"        padding-top: 20px;",
+												"        white-space: pre-wrap !important;",
+												"        display: block !important;",
+												"    }",
+												"    .sapUiBlockLayoutBackgroundDashboard .sapUiBlockCellContent {",
+												"        text-align: center;",
+												"    }",
+												"</style>"
+											],
+											"request": [],
+											"response": [],
+											"attributes": [],
+											"data": []
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"fieldNo": 99999,
+			"data": [
+				{
+					"fieldNo": "3cdcfc94-0639-42a8-e657-7103e0fc0689",
+					"fieldName": "handleLink",
+					"fieldParent": 99999,
+					"fieldType": "neptune.Script",
+					"script": [
+						"==OBJECT STRING==",
+						"var chartFunction = \"\";",
+						"var chartInterval = \"\";",
+						"",
+						"function handleLink(link) {",
+						"",
+						"    var objectName;",
+						"",
+						"    if (sap.n) {",
+						"        objectName = sap.n.currentView.createId(link.getId());",
+						"        var arr = objectName.split(\"--\");",
+						"        objectName = arr[1];",
+						"    } else {",
+						"        objectName = link.getId();",
+						"    }",
+						"",
+						"    switch (objectName) {",
+						"",
+						"        // General",
+						"        case \"linkGeneralCell11\":",
+						"            chartFunction = SingleLine;",
+						"            break;",
+						"",
+						"        case \"linkGeneralCell12\":",
+						"            chartFunction = TwoPanes;",
+						"            break;",
+						"",
+						"        case \"linkGeneralCell13\":",
+						"            chartFunction = Compare;",
+						"            break;",
+						"            ",
+						"        case \"linkGeneralCell21\":",
+						"            chartFunction = Points52k;",
+						"            break;",
+						"",
+						"        case \"linkGeneralCell22\":",
+						"            chartFunction = Points17mill;",
+						"            break;",
+						"",
+						"        case \"linkGeneralCell23\":",
+						"            chartFunction = Intraday;",
+						"            break; ",
+						"            ",
+						"        case \"linkGeneralCell31\":",
+						"            chartFunction = IntradayBreaks;",
+						"            break;",
+						"",
+						"        case \"linkGeneralCell32\":",
+						"            chartFunction = IntradayCandlestick;",
+						"            break;",
+						"",
+						"        case \"linkGeneralCell33\":",
+						"            chartFunction = FlagMarking;",
+						"            break;                    ",
+						"            ",
+						"    }",
+						"",
+						"",
+						"    oPageChart.setTitle(link.getText());",
+						"    oApp.to(oPageChart);",
+						"",
+						"    setTimeout(function() {",
+						"",
+						"        // Reset events in examples ",
+						"        var cont = document.getElementById(\"container\");",
+						"        if (cont) {",
+						"            cont.innerHTML = \"\";",
+						"            window.clearInterval(chartInterval);",
+						"            $('#container').unbind('mousemove touchmove touchstart');",
+						"        }",
+						"",
+						"        // Draw Chart",
+						"        chartFunction();",
+						"",
+						"    }, 1);",
+						"",
+						"}"
+					],
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": []
+				},
+				{
+					"fieldNo": "b2d3dfa5-88ed-464e-e101-473e3d8184d6",
+					"fieldName": "addScript",
+					"fieldParent": 99999,
+					"fieldType": "neptune.Script",
+					"script": [
+						"==OBJECT STRING==",
+						"function addScript(src) {",
+						"    var s = document.createElement('script');",
+						"    s.setAttribute('src', src);",
+						"    document.body.appendChild(s);",
+						"}"
+					],
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": []
+				},
+				{
+					"fieldNo": "50723668-9c99-4cbb-c246-a924cb152c6d",
+					"fieldName": "General",
+					"fieldParent": 99999,
+					"fieldType": "neptune.folder",
+					"script": "",
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": [
+						{
+							"fieldNo": "4d71bfc3-a4b3-40a7-bc87-3e576f98529d",
+							"fieldName": "FlagMarking",
+							"fieldParent": "50723668-9c99-4cbb-c246-a924cb152c6d",
+							"fieldType": "neptune.Script",
+							"script": [
+								"==OBJECT STRING==",
+								"function FlagMarking() {",
+								"",
+								"    $.getJSON('https://cdn.rawgit.com/highcharts/highcharts/057b672172ccc6c08fe7dbb27fc17ebca3f5b770/samples/data/usdeur.json', function(data) {",
+								"",
+								"        // Create the chart",
+								"        Highcharts.stockChart('containerStock', {",
+								"",
+								"            rangeSelector: {",
+								"                selected: 0",
+								"            },",
+								"",
+								"            title: {",
+								"                text: 'USD to EUR exchange rate'",
+								"            },",
+								"",
+								"            tooltip: {",
+								"                style: {",
+								"                    width: '200px'",
+								"                },",
+								"                valueDecimals: 4,",
+								"                shared: true",
+								"            },",
+								"",
+								"            yAxis: {",
+								"                title: {",
+								"                    text: 'Exchange rate'",
+								"                }",
+								"            },",
+								"",
+								"            series: [{",
+								"                name: 'USD to EUR',",
+								"                data: data,",
+								"                id: 'dataseries'",
+								"",
+								"                // the event marker flags",
+								"            }, {",
+								"                type: 'flags',",
+								"                data: [{",
+								"                    x: Date.UTC(2015, 5, 8),",
+								"                    title: 'C',",
+								"                    text: 'Stocks fall on Greece, rate concerns; US dollar dips'",
+								"                }, {",
+								"                    x: Date.UTC(2015, 5, 12),",
+								"                    title: 'D',",
+								"                    text: 'Zimbabwe ditches \\'worthless\\' currency for the US dollar '",
+								"                }, {",
+								"                    x: Date.UTC(2015, 5, 19),",
+								"                    title: 'E',",
+								"                    text: 'US Dollar Declines Over the Week on Rate Timeline'",
+								"                }, {",
+								"                    x: Date.UTC(2015, 5, 26),",
+								"                    title: 'F',",
+								"                    text: 'Greek Negotiations Take Sharp Turn for Worse, US Dollar set to Rally '",
+								"                }, {",
+								"                    x: Date.UTC(2015, 5, 29),",
+								"                    title: 'G',",
+								"                    text: 'Euro records stunning reversal against dollar'",
+								"                }, {",
+								"                    x: Date.UTC(2015, 5, 30),",
+								"                    title: 'H',",
+								"                    text: 'Surging US dollar curbs global IT spend'",
+								"                }],",
+								"                onSeries: 'dataseries',",
+								"                shape: 'circlepin',",
+								"                width: 16",
+								"            }]",
+								"        });",
+								"    });",
+								"",
+								"",
+								"}"
+							],
+							"request": [],
+							"response": [],
+							"attributes": [],
+							"data": []
+						},
+						{
+							"fieldNo": "ff1fa6f7-0723-43c9-8608-d63f8fdad856",
+							"fieldName": "IntradayCandlestick",
+							"fieldParent": "50723668-9c99-4cbb-c246-a924cb152c6d",
+							"fieldType": "neptune.Script",
+							"script": [
+								"==OBJECT STRING==",
+								"function IntradayCandlestick() {",
+								"",
+								"    $.getJSON('https://cdn.rawgit.com/highcharts/highcharts/057b672172ccc6c08fe7dbb27fc17ebca3f5b770/samples/data/new-intraday.json', function(data) {",
+								"",
+								"        // create the chart",
+								"        Highcharts.stockChart('containerStock', {",
+								"",
+								"            title: {",
+								"                text: 'AAPL stock price by minute'",
+								"            },",
+								"",
+								"            rangeSelector: {",
+								"                buttons: [{",
+								"                    type: 'hour',",
+								"                    count: 1,",
+								"                    text: '1h'",
+								"                }, {",
+								"                    type: 'day',",
+								"                    count: 1,",
+								"                    text: '1D'",
+								"                }, {",
+								"                    type: 'all',",
+								"                    count: 1,",
+								"                    text: 'All'",
+								"                }],",
+								"                selected: 1,",
+								"                inputEnabled: false",
+								"            },",
+								"",
+								"            series: [{",
+								"                name: 'AAPL',",
+								"                type: 'candlestick',",
+								"                data: data,",
+								"                tooltip: {",
+								"                    valueDecimals: 2",
+								"                }",
+								"            }]",
+								"        });",
+								"    });",
+								"",
+								"",
+								"}"
+							],
+							"request": [],
+							"response": [],
+							"attributes": [],
+							"data": []
+						},
+						{
+							"fieldNo": "da3e5019-ac1e-4787-c27d-4f7060393cbb",
+							"fieldName": "IntradayBreaks",
+							"fieldParent": "50723668-9c99-4cbb-c246-a924cb152c6d",
+							"fieldType": "neptune.Script",
+							"script": [
+								"==OBJECT STRING==",
+								"function IntradayBreaks() {",
+								"",
+								"    $.getJSON('https://cdn.rawgit.com/highcharts/highcharts/057b672172ccc6c08fe7dbb27fc17ebca3f5b770/samples/data/new-intraday.json', function(data) {",
+								"",
+								"        // create the chart",
+								"        Highcharts.stockChart('containerStock', {",
+								"",
+								"",
+								"            title: {",
+								"                text: 'AAPL stock price by minute'",
+								"            },",
+								"",
+								"            subtitle: {",
+								"                text: 'Using explicit breaks for nights and weekends'",
+								"            },",
+								"",
+								"            xAxis: {",
+								"                breaks: [{ // Nights",
+								"                    from: Date.UTC(2011, 9, 6, 16),",
+								"                    to: Date.UTC(2011, 9, 7, 8),",
+								"                    repeat: 24 * 36e5",
+								"                }, { // Weekends",
+								"                    from: Date.UTC(2011, 9, 7, 16),",
+								"                    to: Date.UTC(2011, 9, 10, 8),",
+								"                    repeat: 7 * 24 * 36e5",
+								"                }]",
+								"            },",
+								"",
+								"            rangeSelector: {",
+								"                buttons: [{",
+								"                    type: 'hour',",
+								"                    count: 1,",
+								"                    text: '1h'",
+								"                }, {",
+								"                    type: 'day',",
+								"                    count: 1,",
+								"                    text: '1D'",
+								"                }, {",
+								"                    type: 'all',",
+								"                    count: 1,",
+								"                    text: 'All'",
+								"                }],",
+								"                selected: 1,",
+								"                inputEnabled: false",
+								"            },",
+								"",
+								"            series: [{",
+								"                name: 'AAPL',",
+								"                type: 'area',",
+								"                data: data,",
+								"                gapSize: 5,",
+								"                tooltip: {",
+								"                    valueDecimals: 2",
+								"                },",
+								"                fillColor: {",
+								"                    linearGradient: {",
+								"                        x1: 0,",
+								"                        y1: 0,",
+								"                        x2: 0,",
+								"                        y2: 1",
+								"                    },",
+								"                    stops: [",
+								"                        [0, Highcharts.getOptions().colors[0]],",
+								"                        [1, Highcharts.Color(Highcharts.getOptions().colors[0]).setOpacity(0).get('rgba')]",
+								"                    ]",
+								"                },",
+								"                threshold: null",
+								"            }]",
+								"        });",
+								"    });",
+								"",
+								"}"
+							],
+							"request": [],
+							"response": [],
+							"attributes": [],
+							"data": []
+						},
+						{
+							"fieldNo": "3972f871-dcde-46f9-8b5c-9e3f0c963702",
+							"fieldName": "Points52k",
+							"fieldParent": "50723668-9c99-4cbb-c246-a924cb152c6d",
+							"fieldType": "neptune.Script",
+							"script": [
+								"==OBJECT STRING==",
+								"function Points52k() {",
+								"",
+								"    $.getJSON('https://cdn.rawgit.com/highcharts/highcharts/057b672172ccc6c08fe7dbb27fc17ebca3f5b770/samples/data/large-dataset.json', function(data) {",
+								"",
+								"        // Create a timer",
+								"        var start = +new Date();",
+								"",
+								"        // Create the chart",
+								"        Highcharts.stockChart('containerStock', {",
+								"            chart: {",
+								"                events: {",
+								"                    load: function() {",
+								"                        this.setTitle(null, {",
+								"                            text: 'Built chart in ' + (new Date() - start) + 'ms'",
+								"                        });",
+								"                    }",
+								"                },",
+								"                zoomType: 'x'",
+								"            },",
+								"",
+								"            rangeSelector: {",
+								"",
+								"                buttons: [{",
+								"                    type: 'day',",
+								"                    count: 3,",
+								"                    text: '3d'",
+								"                }, {",
+								"                    type: 'week',",
+								"                    count: 1,",
+								"                    text: '1w'",
+								"                }, {",
+								"                    type: 'month',",
+								"                    count: 1,",
+								"                    text: '1m'",
+								"                }, {",
+								"                    type: 'month',",
+								"                    count: 6,",
+								"                    text: '6m'",
+								"                }, {",
+								"                    type: 'year',",
+								"                    count: 1,",
+								"                    text: '1y'",
+								"                }, {",
+								"                    type: 'all',",
+								"                    text: 'All'",
+								"                }],",
+								"                selected: 3",
+								"            },",
+								"",
+								"            yAxis: {",
+								"                title: {",
+								"                    text: 'Temperature (°C)'",
+								"                }",
+								"            },",
+								"",
+								"            title: {",
+								"                text: 'Hourly temperatures in Vik i Sogn, Norway, 2009-2017'",
+								"            },",
+								"",
+								"            subtitle: {",
+								"                text: 'Built chart in ...' // dummy text to reserve space for dynamic subtitle",
+								"            },",
+								"",
+								"            series: [{",
+								"                name: 'Temperature',",
+								"                data: data.data,",
+								"                pointStart: data.pointStart,",
+								"                pointInterval: data.pointInterval,",
+								"                tooltip: {",
+								"                    valueDecimals: 1,",
+								"                    valueSuffix: '°C'",
+								"                }",
+								"            }]",
+								"",
+								"        });",
+								"    });",
+								"",
+								"}"
+							],
+							"request": [],
+							"response": [],
+							"attributes": [],
+							"data": []
+						},
+						{
+							"fieldNo": "d294ddfc-313a-4ac9-cac7-b6dd3b9b997d",
+							"fieldName": "Points17mill",
+							"fieldParent": "50723668-9c99-4cbb-c246-a924cb152c6d",
+							"fieldType": "neptune.Script",
+							"script": [
+								"==OBJECT STRING==",
+								"function Points17mill() {",
+								"",
+								"    /**",
+								"     * Load new data depending on the selected min and max",
+								"     */",
+								"    function afterSetExtremes(e) {",
+								"",
+								"        var chart = \"\";",
+								"        $.each(Highcharts.charts, function(i, data) {",
+								"            if (typeof data !== \"undefined\") {",
+								"                chart = data;",
+								"            }",
+								"        });",
+								"",
+								"        chart.showLoading('Loading data from server...');",
+								"        $.getJSON('https://www.highcharts.com/samples/data/from-sql.php?start=' + Math.round(e.min) +",
+								"            '&end=' + Math.round(e.max) + '&callback=?', function(data) {",
+								"",
+								"                chart.series[0].setData(data);",
+								"                chart.hideLoading();",
+								"            });",
+								"    }",
+								"",
+								"    // See source code from the JSONP handler at https://github.com/highcharts/highcharts/blob/master/samples/data/from-sql.php",
+								"    $.getJSON('https://www.highcharts.com/samples/data/from-sql.php?callback=?', function(data) {",
+								"",
+								"        // Add a null value for the end date",
+								"        data = [].concat(data, [",
+								"            [Date.UTC(2011, 9, 14, 19, 59), null, null, null, null]",
+								"        ]);",
+								"",
+								"        // create the chart",
+								"        Highcharts.stockChart('containerStock', {",
+								"            chart: {",
+								"                type: 'candlestick',",
+								"                zoomType: 'x'",
+								"            },",
+								"",
+								"            navigator: {",
+								"                adaptToUpdatedData: false,",
+								"                series: {",
+								"                    data: data",
+								"                }",
+								"            },",
+								"",
+								"            scrollbar: {",
+								"                liveRedraw: false",
+								"            },",
+								"",
+								"            title: {",
+								"                text: 'AAPL history by the minute from 1998 to 2011'",
+								"            },",
+								"",
+								"            subtitle: {",
+								"                text: 'Displaying 1.7 million data points in Highcharts Stock by async server loading'",
+								"            },",
+								"",
+								"            rangeSelector: {",
+								"                buttons: [{",
+								"                    type: 'hour',",
+								"                    count: 1,",
+								"                    text: '1h'",
+								"                }, {",
+								"                    type: 'day',",
+								"                    count: 1,",
+								"                    text: '1d'",
+								"                }, {",
+								"                    type: 'month',",
+								"                    count: 1,",
+								"                    text: '1m'",
+								"                }, {",
+								"                    type: 'year',",
+								"                    count: 1,",
+								"                    text: '1y'",
+								"                }, {",
+								"                    type: 'all',",
+								"                    text: 'All'",
+								"                }],",
+								"                inputEnabled: false, // it supports only days",
+								"                selected: 4 // all",
+								"            },",
+								"",
+								"            xAxis: {",
+								"                events: {",
+								"                    afterSetExtremes: afterSetExtremes",
+								"                },",
+								"                minRange: 3600 * 1000 // one hour",
+								"            },",
+								"",
+								"            yAxis: {",
+								"                floor: 0",
+								"            },",
+								"",
+								"            series: [{",
+								"                data: data,",
+								"                dataGrouping: {",
+								"                    enabled: false",
+								"                }",
+								"            }]",
+								"        });",
+								"    });",
+								"",
+								"}"
+							],
+							"request": [],
+							"response": [],
+							"attributes": [],
+							"data": []
+						},
+						{
+							"fieldNo": "3f103101-06ef-436b-c85d-25c27ad5d92e",
+							"fieldName": "Intraday",
+							"fieldParent": "50723668-9c99-4cbb-c246-a924cb152c6d",
+							"fieldType": "neptune.Script",
+							"script": [
+								"==OBJECT STRING==",
+								"function Intraday() {",
+								"",
+								"    $.getJSON('https://cdn.rawgit.com/highcharts/highcharts/057b672172ccc6c08fe7dbb27fc17ebca3f5b770/samples/data/new-intraday.json', function(data) {",
+								"",
+								"        // create the chart",
+								"        Highcharts.stockChart('containerStock', {",
+								"",
+								"",
+								"            title: {",
+								"                text: 'AAPL stock price by minute'",
+								"            },",
+								"",
+								"            subtitle: {",
+								"                text: 'Using ordinal X axis'",
+								"            },",
+								"",
+								"            xAxis: {",
+								"                gapGridLineWidth: 0",
+								"            },",
+								"",
+								"            rangeSelector: {",
+								"                buttons: [{",
+								"                    type: 'hour',",
+								"                    count: 1,",
+								"                    text: '1h'",
+								"                }, {",
+								"                    type: 'day',",
+								"                    count: 1,",
+								"                    text: '1D'",
+								"                }, {",
+								"                    type: 'all',",
+								"                    count: 1,",
+								"                    text: 'All'",
+								"                }],",
+								"                selected: 1,",
+								"                inputEnabled: false",
+								"            },",
+								"",
+								"            series: [{",
+								"                name: 'AAPL',",
+								"                type: 'area',",
+								"                data: data,",
+								"                gapSize: 5,",
+								"                tooltip: {",
+								"                    valueDecimals: 2",
+								"                },",
+								"                fillColor: {",
+								"                    linearGradient: {",
+								"                        x1: 0,",
+								"                        y1: 0,",
+								"                        x2: 0,",
+								"                        y2: 1",
+								"                    },",
+								"                    stops: [",
+								"                        [0, Highcharts.getOptions().colors[0]],",
+								"                        [1, Highcharts.Color(Highcharts.getOptions().colors[0]).setOpacity(0).get('rgba')]",
+								"                    ]",
+								"                },",
+								"                threshold: null",
+								"            }]",
+								"        });",
+								"    });",
+								"",
+								"}"
+							],
+							"request": [],
+							"response": [],
+							"attributes": [],
+							"data": []
+						},
+						{
+							"fieldNo": "ea84a5f9-ad69-4044-b85b-f7abdb8fc571",
+							"fieldName": "Compare",
+							"fieldParent": "50723668-9c99-4cbb-c246-a924cb152c6d",
+							"fieldType": "neptune.Script",
+							"script": [
+								"==OBJECT STRING==",
+								"function Compare() {",
+								"",
+								"    var seriesOptions = [],",
+								"        seriesCounter = 0,",
+								"        names = ['MSFT', 'AAPL', 'GOOG'];",
+								"",
+								"    /**",
+								"     * Create the chart when all data is loaded",
+								"     * @returns {undefined}",
+								"     */",
+								"    function createChart() {",
+								"",
+								"        Highcharts.stockChart('containerStock', {",
+								"",
+								"            rangeSelector: {",
+								"                selected: 4",
+								"            },",
+								"",
+								"            yAxis: {",
+								"                labels: {",
+								"                    formatter: function() {",
+								"                        return (this.value > 0 ? ' + ' : '') + this.value + '%';",
+								"                    }",
+								"                },",
+								"                plotLines: [{",
+								"                    value: 0,",
+								"                    width: 2,",
+								"                    color: 'silver'",
+								"                }]",
+								"            },",
+								"",
+								"            plotOptions: {",
+								"                series: {",
+								"                    compare: 'percent',",
+								"                    showInNavigator: true",
+								"                }",
+								"            },",
+								"",
+								"            tooltip: {",
+								"                pointFormat: '<span style=\"color:{series.color}\">{series.name}</span>: <b>{point.y}</b> ({point.change}%)<br/>',",
+								"                valueDecimals: 2,",
+								"                split: true",
+								"            },",
+								"",
+								"            series: seriesOptions",
+								"        });",
+								"    }",
+								"",
+								"    $.each(names, function(i, name) {",
+								"",
+								"        $.getJSON(\"/proxy/\" + encodeURIComponent(\"https://www.highcharts.com/samples/data/\") + name.toLowerCase() + \"-c.json\", function(data) {",
+								"",
+								"            seriesOptions[i] = {",
+								"                name: name,",
+								"                data: data",
+								"            };",
+								"",
+								"            // As we're loading the data asynchronously, we don't know what order it will arrive. So",
+								"            // we keep a counter and create the chart when all the data is loaded.",
+								"            seriesCounter += 1;",
+								"",
+								"            if (seriesCounter === names.length) {",
+								"                createChart();",
+								"            }",
+								"        });",
+								"    });",
+								"}"
+							],
+							"request": [],
+							"response": [],
+							"attributes": [],
+							"data": []
+						},
+						{
+							"fieldNo": "b50607fc-0dde-4397-e999-c2b3096be130",
+							"fieldName": "TwoPanes",
+							"fieldParent": "50723668-9c99-4cbb-c246-a924cb152c6d",
+							"fieldType": "neptune.Script",
+							"script": [
+								"==OBJECT STRING==",
+								"function TwoPanes() {",
+								"",
+								"    $.getJSON(\"/proxy/\" + encodeURIComponent(\"https://www.highcharts.com/samples/data/aapl-ohlcv.json\"), function(data) {",
+								"",
+								"        // split the data set into ohlc and volume",
+								"        var ohlc = [],",
+								"            volume = [],",
+								"            dataLength = data.length,",
+								"            // set the allowed units for data grouping",
+								"            groupingUnits = [",
+								"                [",
+								"                    'week', // unit name",
+								"                    [1] // allowed multiples",
+								"                ],",
+								"                [",
+								"                    'month', [1, 2, 3, 4, 6]",
+								"                ]",
+								"            ],",
+								"",
+								"            i = 0;",
+								"",
+								"        for (i; i < dataLength; i += 1) {",
+								"            ohlc.push([",
+								"                data[i][0], // the date",
+								"                data[i][1], // open",
+								"                data[i][2], // high",
+								"                data[i][3], // low",
+								"                data[i][4] // close",
+								"            ]);",
+								"",
+								"            volume.push([",
+								"                data[i][0], // the date",
+								"                data[i][5] // the volume",
+								"            ]);",
+								"        }",
+								"",
+								"",
+								"        // create the chart",
+								"        Highcharts.stockChart('containerStock', {",
+								"",
+								"            rangeSelector: {",
+								"                selected: 1",
+								"            },",
+								"",
+								"            title: {",
+								"                text: 'AAPL Historical'",
+								"            },",
+								"",
+								"            yAxis: [{",
+								"                labels: {",
+								"                    align: 'right',",
+								"                    x: -3",
+								"                },",
+								"                title: {",
+								"                    text: 'OHLC'",
+								"                },",
+								"                height: '60%',",
+								"                lineWidth: 2,",
+								"                resize: {",
+								"                    enabled: true",
+								"                }",
+								"            }, {",
+								"                labels: {",
+								"                    align: 'right',",
+								"                    x: -3",
+								"                },",
+								"                title: {",
+								"                    text: 'Volume'",
+								"                },",
+								"                top: '65%',",
+								"                height: '35%',",
+								"                offset: 0,",
+								"                lineWidth: 2",
+								"            }],",
+								"",
+								"            tooltip: {",
+								"                split: true",
+								"            },",
+								"",
+								"            series: [{",
+								"                type: 'candlestick',",
+								"                name: 'AAPL',",
+								"                data: ohlc,",
+								"                dataGrouping: {",
+								"                    units: groupingUnits",
+								"                }",
+								"            }, {",
+								"                type: 'column',",
+								"                name: 'Volume',",
+								"                data: volume,",
+								"                yAxis: 1,",
+								"                dataGrouping: {",
+								"                    units: groupingUnits",
+								"                }",
+								"            }]",
+								"        });",
+								"    });",
+								"",
+								"}"
+							],
+							"request": [],
+							"response": [],
+							"attributes": [],
+							"data": []
+						},
+						{
+							"fieldNo": "c829c42e-0bc5-4275-ee76-f4af7838f5ff",
+							"fieldName": "SingleLine",
+							"fieldParent": "50723668-9c99-4cbb-c246-a924cb152c6d",
+							"fieldType": "neptune.Script",
+							"script": [
+								"==OBJECT STRING==",
+								"function SingleLine() {",
+								"    ",
+								"    $.getJSON(\"/proxy/\" + encodeURIComponent(\"https://www.highcharts.com/samples/data/aapl-c.json\"), function(data) {",
+								"        // Create the chart",
+								"        Highcharts.stockChart('containerStock', {",
+								"",
+								"",
+								"            rangeSelector: {",
+								"                selected: 1",
+								"            },",
+								"",
+								"            title: {",
+								"                text: 'AAPL Stock Price'",
+								"            },",
+								"",
+								"            series: [{",
+								"                name: 'AAPL',",
+								"                data: data,",
+								"                tooltip: {",
+								"                    valueDecimals: 2",
+								"                }",
+								"            }]",
+								"        });",
+								"    });",
+								"",
+								"",
+								"}"
+							],
+							"request": [],
+							"response": [],
+							"attributes": [],
+							"data": []
+						}
+					]
+				},
+				{
+					"fieldNo": "39b78c1a-ee06-4c42-b067-10c16ea310e3",
+					"fieldName": "Types",
+					"fieldParent": 99999,
+					"fieldType": "neptune.folder",
+					"script": "",
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": [
+						{
+							"fieldNo": "a6cd33ff-8981-49da-c44f-13c5d0a5e2af",
+							"fieldName": "LineMarkers",
+							"fieldParent": "39b78c1a-ee06-4c42-b067-10c16ea310e3",
+							"fieldType": "neptune.Script",
+							"script": [
+								"==OBJECT STRING==",
+								"function LineMarkers() {",
+								"",
+								"    $.getJSON('https://www.highcharts.com/samples/data/aapl-c.json', function(data) {",
+								"",
+								"        // Create the chart",
+								"        Highcharts.stockChart('containerStock', {",
+								"",
+								"            rangeSelector: {",
+								"                selected: 1",
+								"            },",
+								"",
+								"            title: {",
+								"                text: 'AAPL Stock Price'",
+								"            },",
+								"",
+								"            series: [{",
+								"                name: 'AAPL Stock Price',",
+								"                data: data,",
+								"                marker: {",
+								"                    enabled: true,",
+								"                    radius: 3",
+								"                },",
+								"                shadow: true,",
+								"                tooltip: {",
+								"                    valueDecimals: 2",
+								"                }",
+								"            }]",
+								"        });",
+								"    });",
+								"",
+								"}"
+							],
+							"request": [],
+							"response": [],
+							"attributes": [],
+							"data": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"fieldNo": 99998,
+			"data": []
+		}
+	],
+	"ver": "22.8.2.1244",
+	"application": "p9_training_highstock",
+	"title": "Highstock",
+	"description": "Highstock",
+	"enableFileStorage": false,
+	"enableManifest": false,
+	"enableStylesheet": false,
+	"enableObfuscate": false,
+	"onlyRunLaunchpad": false,
+	"disabled": false,
+	"loadLaunchpadCode": null,
+	"loadApplicationCode": null,
+	"appType": "",
+	"ui5_m": true,
+	"ui5_f": false,
+	"ui5_table": false,
+	"ui5_tnt": false,
+	"ui5_uxap": false,
+	"ui5_chart": false,
+	"ui5_theme": "sap_belize",
+	"ui5_version": "",
+	"ui5_language": null,
+	"cus_theme": "",
+	"css": "",
+	"header": [
+		"==OBJECT STRING==",
+		"<script src=\"/public/highsuite/highstock.js\"></script>",
+		"<script src=\"/public/highsuite/modules/exporting.js\"></script>",
+		"<script src=\"/public/highsuite/modules/drag-panes.js\"></script>",
+		""
+	],
+	"manifest": "",
+	"globalScript": "",
+	"deleted": false,
+	"libHighchart": false,
+	"libHighmap": false,
+	"publicAccess": false,
+	"ui5_bootstrap": false,
+	"apis": []
+}
