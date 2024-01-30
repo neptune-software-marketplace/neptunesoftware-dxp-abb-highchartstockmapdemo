@@ -1,5 +1,5 @@
 {
-	"id": "3D726FF4-4F12-ED11-BD6E-000D3AB1D9FF",
+	"id": "3d726ff4-4f12-ed11-bd6e-000d3ab1d9ff",
 	"createdAt": "2022-08-02T10:43:34.116Z",
 	"createdBy": "kristin.eliassen@neptune-software.com",
 	"git": {
@@ -13,30 +13,36 @@
 	"enableCICD": true,
 	"apps": [
 		{
-			"id": "E8B4E294-894D-4FFA-B606-13214F9DF5D2",
-			"ver": "22.8.2.1243",
+			"id": "e8b4e294-894d-4ffa-b606-13214f9df5d2",
 			"application": "p9_training_highcharts",
 			"title": "Highcharts",
-			"description": "Highcharts"
+			"description": "Highcharts",
+			"package": {
+				"id": "3D726FF4-4F12-ED11-BD6E-000D3AB1D9FF"
+			}
 		},
 		{
-			"id": "6B7C1147-EAD9-4CA1-A4E1-A7F68E06053E",
-			"ver": "22.8.2.1244",
-			"application": "p9_training_highstock",
-			"title": "Highstock",
-			"description": "Highstock"
-		},
-		{
-			"id": "7BED17E7-4B43-4C26-974E-AD7F50FE5769",
-			"ver": "22.8.2.1243",
+			"id": "7bed17e7-4b43-4c26-974e-ad7f50fe5769",
 			"application": "p9_training_highmaps",
 			"title": "Highmaps",
-			"description": "Highmaps"
+			"description": "Highmaps",
+			"package": {
+				"id": "3D726FF4-4F12-ED11-BD6E-000D3AB1D9FF"
+			}
+		},
+		{
+			"id": "6b7c1147-ead9-4ca1-a4e1-a7f68e06053e",
+			"application": "p9_training_highstock",
+			"title": "Highstock",
+			"description": "Highstock",
+			"package": {
+				"id": "3D726FF4-4F12-ED11-BD6E-000D3AB1D9FF"
+			}
 		}
 	],
 	"api": [],
-	"odataMock": [],
 	"odataSource": [],
+	"odataMock": [],
 	"dictionary": [],
 	"jsclass": [],
 	"jsscript_group": [],
@@ -54,8 +60,12 @@
 	"systems": [],
 	"doc": [],
 	"wf_notifications": [],
-	"wf_definition": [],
 	"department": [],
 	"script_scheduler": [],
-	"connector": []
+	"wf_definition": [],
+	"connector": [],
+	"events": [],
+	"code_snippets": [],
+	"wf_determination": [],
+	"wf_taskaction": []
 }
