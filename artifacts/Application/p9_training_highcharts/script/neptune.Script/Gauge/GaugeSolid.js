@@ -3,7 +3,7 @@ function GaugeSolid() {
     var solidDiv = '<div style="width: 100%; height: 800px; margin: 0 auto">' + '<div id="container-speed" style="width: 50%; height: 400px; float: left"></div>' +
         '<div id="container-rpm" style="width: 50%; height: 400px; float: left"></div>' + '</div>';
 
-    var div = document.getElementById('container');
+    var div = document.getElementById('Highchart');
     div.innerHTML = div.innerHTML + solidDiv;
 
     var gaugeOptions = {
@@ -61,7 +61,7 @@ function GaugeSolid() {
     };
 
     // The speed gauge
-    var chartSpeed = Highcharts.chart('container-speed', Highcharts.merge(gaugeOptions, {
+    var chartSpeed = Highcharts.chart('Highchart-speed', Highcharts.merge(gaugeOptions, {
         yAxis: {
             min: 0,
             max: 200,
@@ -90,7 +90,7 @@ function GaugeSolid() {
     }));
 
     // The RPM gauge
-    var chartRpm = Highcharts.chart('container-rpm', Highcharts.merge(gaugeOptions, {
+    var chartRpm = Highcharts.chart('Highchart-rpm', Highcharts.merge(gaugeOptions, {
         yAxis: {
             min: 0,
             max: 5,

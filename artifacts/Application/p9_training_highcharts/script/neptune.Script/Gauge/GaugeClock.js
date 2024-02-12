@@ -24,7 +24,7 @@ function GaugeClock() {
     var now = getNow();
 
     // Create the chart
-    Highcharts.chart('container', {
+    Highcharts.chart('Highchart', {
 
             chart: {
                 type: 'gauge',

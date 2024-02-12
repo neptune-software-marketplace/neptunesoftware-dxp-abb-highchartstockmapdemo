@@ -6,7 +6,7 @@ function SplineUpdate() {
         }
     });
 
-    Highcharts.chart('container', {
+    Highcharts.chart('Highchart', {
         chart: {
             type: 'spline',
             animation: Highcharts.svg, // don't animate in old IE

@@ -38,7 +38,7 @@ function chartLine500k() {
 
 
     console.time('line');
-    Highcharts.chart('container', {
+    Highcharts.chart('Highchart', {
 
         chart: {
             zoomType: 'x'

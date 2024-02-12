@@ -1,6 +1,6 @@
 function HeatMap() {
 
-    Highcharts.chart('container', {
+    Highcharts.chart('Highchart', {
 
         chart: {
             type: 'heatmap',

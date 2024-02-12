@@ -1,6 +1,6 @@
 function chartLineBasic() {
     
-    Highcharts.chart('container', {
+    Highcharts.chart('Highchart', {
 
         title: {
             text: 'Solar Employment Growth by Sector, 2010-2016'

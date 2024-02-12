@@ -1,6 +1,6 @@
 function ColumnStackedGrouped() {
 
-    Highcharts.chart('container', {
+    Highcharts.chart('Highchart', {
 
         chart: {
             type: 'column'

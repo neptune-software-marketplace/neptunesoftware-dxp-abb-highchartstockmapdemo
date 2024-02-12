@@ -1,6 +1,6 @@
 function BarStacked() {
 
-    Highcharts.chart('container', {
+    Highcharts.chart('Highchart', {
         chart: {
             type: 'bar'
         },

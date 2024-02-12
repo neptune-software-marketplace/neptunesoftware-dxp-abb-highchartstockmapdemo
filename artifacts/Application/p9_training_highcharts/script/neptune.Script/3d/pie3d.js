@@ -1,6 +1,6 @@
 function pie3d() {
 
-    Highcharts.chart('container', {
+    Highcharts.chart('Highchart', {
         chart: {
             type: 'pie',
             options3d: {

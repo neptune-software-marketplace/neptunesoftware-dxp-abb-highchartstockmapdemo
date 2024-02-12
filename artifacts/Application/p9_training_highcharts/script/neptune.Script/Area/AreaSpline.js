@@ -1,6 +1,6 @@
 function AreaSpline() {
 
-    Highcharts.chart('container', {
+    Highcharts.chart('Highchart', {
         chart: {
             type: 'areaspline'
         },

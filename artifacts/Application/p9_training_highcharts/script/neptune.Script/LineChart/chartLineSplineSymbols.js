@@ -1,6 +1,6 @@
 function chartLineSplineSymbols() {
 
-    Highcharts.chart('container', {
+    Highcharts.chart('Highchart', {
         chart: {
             type: 'spline'
         },

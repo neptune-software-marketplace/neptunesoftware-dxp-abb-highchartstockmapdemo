@@ -1381,7 +1381,7 @@ function Sunburst() {
     Highcharts.getOptions().colors.splice(0, 0, 'transparent');
 
 
-    Highcharts.chart('container', {
+    Highcharts.chart('Highchart', {
 
 
 

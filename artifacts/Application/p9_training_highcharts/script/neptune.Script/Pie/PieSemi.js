@@ -1,6 +1,6 @@
 function PieSemi() {
 
-    Highcharts.chart('container', {
+    Highcharts.chart('Highchart', {
         chart: {
             plotBackgroundColor: null,
             plotBorderWidth: 0,

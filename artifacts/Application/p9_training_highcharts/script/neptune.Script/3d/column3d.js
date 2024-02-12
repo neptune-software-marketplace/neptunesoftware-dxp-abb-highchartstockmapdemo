@@ -4,7 +4,7 @@ function column3d() {
     // Set up the chart
     var chart = new Highcharts.Chart({
         chart: {
-            renderTo: 'container',
+            renderTo: 'Highchart',
             type: 'column',
             options3d: {
                 enabled: true,

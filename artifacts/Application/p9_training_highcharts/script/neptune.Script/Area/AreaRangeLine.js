@@ -68,7 +68,7 @@ function AreaRangeLine() {
         ];
 
 
-    Highcharts.chart('container', {
+    Highcharts.chart('Highchart', {
 
         title: {
             text: 'July temperatures'

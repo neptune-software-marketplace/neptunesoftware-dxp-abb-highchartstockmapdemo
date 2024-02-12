@@ -1,6 +1,6 @@
 function combColumnLinePie() {
 
-    Highcharts.chart('container', {
+    Highcharts.chart('Highchart', {
         title: {
             text: 'Combination chart'
         },

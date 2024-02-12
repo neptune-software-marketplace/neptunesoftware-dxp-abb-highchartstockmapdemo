@@ -1,6 +1,6 @@
 function XRange() {
     
-    Highcharts.chart('container', {
+    Highcharts.chart('Highchart', {
         chart: {
             type: 'xrange'
         },

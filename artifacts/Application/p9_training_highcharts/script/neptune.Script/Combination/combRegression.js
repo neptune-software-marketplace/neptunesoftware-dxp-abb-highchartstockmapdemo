@@ -1,6 +1,6 @@
 function combRegression() {
 
-    Highcharts.chart('container', {
+    Highcharts.chart('Highchart', {
         xAxis: {
             min: -0.5,
             max: 5.5

@@ -1,7 +1,7 @@
 function combDual() {
 
 
-    Highcharts.chart('container', {
+    Highcharts.chart('Highchart', {
         chart: {
             zoomType: 'xy'
         },

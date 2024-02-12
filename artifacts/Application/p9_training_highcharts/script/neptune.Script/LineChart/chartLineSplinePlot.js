@@ -1,7 +1,7 @@
 function chartLineSplinePlot() {
 
     // Data retrieved from http://vikjavev.no/ver/index.php?spenn=2d&sluttid=16.06.2015.
-    Highcharts.chart('container', {
+    Highcharts.chart('Highchart', {
         chart: {
             type: 'spline'
         },

@@ -1,6 +1,6 @@
 function Polygon() {
     
-    Highcharts.chart('container', {
+    Highcharts.chart('Highchart', {
     title: {
         text: 'Height vs Weight'
     },

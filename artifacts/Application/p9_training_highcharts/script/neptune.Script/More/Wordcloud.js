@@ -18,7 +18,7 @@ function Wordcloud() {
             return arr;
         }, []);
 
-    Highcharts.chart('container', {
+    Highcharts.chart('Highchart', {
         series: [{
             type: 'wordcloud',
             data: data,

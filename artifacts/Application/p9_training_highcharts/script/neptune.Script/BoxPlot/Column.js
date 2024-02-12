@@ -1,6 +1,6 @@
 function Column() {
 
-    Highcharts.chart('container', {
+    Highcharts.chart('Highchart', {
         chart: {
             type: 'column'
         },

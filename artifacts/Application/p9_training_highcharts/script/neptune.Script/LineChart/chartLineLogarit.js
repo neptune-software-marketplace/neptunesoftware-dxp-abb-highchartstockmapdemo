@@ -1,7 +1,7 @@
 function chartLineLogarit() {
 
 
-    Highcharts.chart('container', {
+    Highcharts.chart('Highchart', {
 
         title: {
             text: 'Logarithmic axis demo'

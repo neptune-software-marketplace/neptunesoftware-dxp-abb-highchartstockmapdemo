@@ -4,7 +4,7 @@ function chartLineTimeseries() {
         'https://cdn.rawgit.com/highcharts/highcharts/057b672172ccc6c08fe7dbb27fc17ebca3f5b770/samples/data/usdeur.json',
         function(data) {
 
-            Highcharts.chart('container', {
+            Highcharts.chart('Highchart', {
                 chart: {
                     zoomType: 'x'
                 },

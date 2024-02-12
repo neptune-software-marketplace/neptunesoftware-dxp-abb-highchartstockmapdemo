@@ -1,6 +1,6 @@
 function Bar() {
 
-    Highcharts.chart('container', {
+    Highcharts.chart('Highchart', {
         chart: {
             type: 'bar'
         },

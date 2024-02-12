@@ -1,6 +1,6 @@
 function TreeMapColor() {
 
-    Highcharts.chart('container', {
+    Highcharts.chart('Highchart', {
         colorAxis: {
             minColor: '#FFFFFF',
             maxColor: Highcharts.getOptions().colors[0]

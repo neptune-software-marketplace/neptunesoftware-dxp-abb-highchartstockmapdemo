@@ -1,6 +1,6 @@
 function AreaInverted() {
 
-    Highcharts.chart('container', {
+    Highcharts.chart('Highchart', {
         chart: {
             type: 'area',
             inverted: true

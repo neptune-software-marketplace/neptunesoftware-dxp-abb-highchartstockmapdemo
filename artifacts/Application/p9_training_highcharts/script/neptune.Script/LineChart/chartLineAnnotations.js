@@ -1884,7 +1884,7 @@ function chartLineAnnotations() {
     ];
 
     // Now create the chart
-    Highcharts.chart('container', {
+    Highcharts.chart('Highchart', {
 
         chart: {
             type: 'area',

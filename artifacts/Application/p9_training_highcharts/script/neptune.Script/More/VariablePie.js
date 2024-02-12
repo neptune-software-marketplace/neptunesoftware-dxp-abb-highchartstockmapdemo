@@ -1,5 +1,5 @@
 function VariablePie() {
-    Highcharts.chart('container', {
+    Highcharts.chart('Highchart', {
         chart: {
             type: 'variablepie'
         },

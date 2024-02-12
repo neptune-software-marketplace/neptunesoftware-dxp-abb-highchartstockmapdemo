@@ -1,6 +1,6 @@
 function Polar() {
 
-    Highcharts.chart('container', {
+    Highcharts.chart('Highchart', {
 
         chart: {
             polar: true

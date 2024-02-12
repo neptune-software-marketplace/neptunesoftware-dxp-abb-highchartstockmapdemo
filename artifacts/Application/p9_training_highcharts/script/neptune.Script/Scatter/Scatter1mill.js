@@ -16,7 +16,7 @@ function Scatter1mill() {
     }
 
     console.time('scatter');
-    Highcharts.chart('container', {
+    Highcharts.chart('Highchart', {
 
         chart: {
             zoomType: 'xy',

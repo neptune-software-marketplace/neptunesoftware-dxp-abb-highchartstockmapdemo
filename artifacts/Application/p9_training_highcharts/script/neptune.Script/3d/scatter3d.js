@@ -20,7 +20,7 @@ function scatter3d() {
     // Set up the chart
     var chart = new Highcharts.Chart({
         chart: {
-            renderTo: 'container',
+            renderTo: 'Highchart',
             margin: 100,
             type: 'scatter3d',
             animation: false,

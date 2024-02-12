@@ -1,6 +1,6 @@
 function column3dstacking() {
 
-    Highcharts.chart('container', {
+    Highcharts.chart('Highchart', {
         chart: {
             type: 'column',
             options3d: {

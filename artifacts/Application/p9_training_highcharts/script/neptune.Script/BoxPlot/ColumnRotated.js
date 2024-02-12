@@ -1,6 +1,6 @@
 function ColumnRotated() {
 
-    Highcharts.chart('container', {
+    Highcharts.chart('Highchart', {
         chart: {
             type: 'column'
         },

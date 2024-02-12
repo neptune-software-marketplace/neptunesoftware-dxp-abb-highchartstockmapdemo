@@ -205,7 +205,7 @@ function Donut() {
     }
 
     // Create the chart
-    Highcharts.chart('container', {
+    Highcharts.chart('Highchart', {
         chart: {
             type: 'pie'
         },

@@ -1,6 +1,6 @@
 function Bubble3D() {
 
-    Highcharts.chart('container', {
+    Highcharts.chart('Highchart', {
 
         chart: {
             type: 'bubble',

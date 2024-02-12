@@ -1,6 +1,6 @@
 function AreaStreamgraph() {
     var colors = Highcharts.getOptions().colors;
-    Highcharts.chart('container', {
+    Highcharts.chart('Highchart', {
 
         chart: {
             type: 'streamgraph',

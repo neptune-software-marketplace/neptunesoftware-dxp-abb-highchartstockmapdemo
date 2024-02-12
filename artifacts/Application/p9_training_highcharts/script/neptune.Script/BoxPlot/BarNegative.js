@@ -9,7 +9,7 @@ function BarNegative() {
         '95-99', '100 + '
     ];
 
-    Highcharts.chart('container', {
+    Highcharts.chart('Highchart', {
         chart: {
             type: 'bar'
         },

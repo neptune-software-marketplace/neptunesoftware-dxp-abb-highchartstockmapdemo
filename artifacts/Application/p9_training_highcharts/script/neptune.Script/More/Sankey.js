@@ -1,6 +1,6 @@
 function Sankey() {
     
-    Highcharts.chart('container', {
+    Highcharts.chart('Highchart', {
 
         title: {
             text: 'Highcharts Sankey Diagram'

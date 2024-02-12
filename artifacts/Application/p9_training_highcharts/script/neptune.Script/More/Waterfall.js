@@ -1,7 +1,7 @@
 function Waterfall() {
 
 
-    Highcharts.chart('container', {
+    Highcharts.chart('Highchart', {
         chart: {
             type: 'waterfall'
         },

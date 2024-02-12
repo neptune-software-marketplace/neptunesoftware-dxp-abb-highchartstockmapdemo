@@ -1,6 +1,6 @@
 function ScatterPlot() {
 
-    Highcharts.chart('container', {
+    Highcharts.chart('Highchart', {
         chart: {
             type: 'scatter',
             zoomType: 'xy'

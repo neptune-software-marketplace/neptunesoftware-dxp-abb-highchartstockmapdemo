@@ -1,7 +1,7 @@
 function PieLegend() {
 
     // Build the chart
-    Highcharts.chart('container', {
+    Highcharts.chart('Highchart', {
         chart: {
             plotBackgroundColor: null,
             plotBorderWidth: null,

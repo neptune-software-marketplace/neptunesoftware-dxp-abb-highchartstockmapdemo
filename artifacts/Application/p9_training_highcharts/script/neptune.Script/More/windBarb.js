@@ -1,7 +1,7 @@
 function windBarb() {
 
     // Construct the chart
-    Highcharts.chart('container', {
+    Highcharts.chart('Highchart', {
 
         title: {
             text: 'Highcharts Wind Barbs'

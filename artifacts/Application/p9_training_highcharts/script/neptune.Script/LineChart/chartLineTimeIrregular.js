@@ -1,6 +1,6 @@
 function chartLineTimeIrregular() {
 
-    Highcharts.chart('container', {
+    Highcharts.chart('Highchart', {
         chart: {
             type: 'spline'
         },

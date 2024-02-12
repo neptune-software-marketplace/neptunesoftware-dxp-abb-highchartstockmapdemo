@@ -1,7 +1,7 @@
 function ColumnRange() {
 
 
-    Highcharts.chart('container', {
+    Highcharts.chart('Highchart', {
 
         chart: {
             type: 'columnrange',

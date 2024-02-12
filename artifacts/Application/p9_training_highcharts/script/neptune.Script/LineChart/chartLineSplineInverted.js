@@ -1,6 +1,6 @@
 function chartLineSplineInverted() {
 
-    Highcharts.chart('container', {
+    Highcharts.chart('Highchart', {
         chart: {
             type: 'spline',
             inverted: true

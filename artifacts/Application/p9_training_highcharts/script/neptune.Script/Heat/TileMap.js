@@ -1,6 +1,6 @@
 function TileMap() {
 
-    Highcharts.chart('container', {
+    Highcharts.chart('Highchart', {
         chart: {
             type: 'tilemap',
             inverted: true,

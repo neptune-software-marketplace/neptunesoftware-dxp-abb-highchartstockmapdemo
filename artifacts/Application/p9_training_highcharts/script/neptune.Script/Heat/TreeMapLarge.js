@@ -58,7 +58,7 @@ function TreeMapLarge() {
                 regionI = regionI + 1;
             }
         }
-        Highcharts.chart('container', {
+        Highcharts.chart('Highchart', {
             series: [{
                 type: 'treemap',
                 layoutAlgorithm: 'squarified',

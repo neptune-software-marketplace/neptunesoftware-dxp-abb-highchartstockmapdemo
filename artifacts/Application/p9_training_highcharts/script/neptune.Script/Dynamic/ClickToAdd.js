@@ -1,6 +1,6 @@
 function ClickToAdd() {
 
-    Highcharts.chart('container', {
+    Highcharts.chart('Highchart', {
         chart: {
             type: 'scatter',
             margin: [70, 50, 60, 80],

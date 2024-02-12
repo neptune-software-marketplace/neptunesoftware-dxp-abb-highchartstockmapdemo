@@ -12,7 +12,7 @@ function Bellcurve() {
         3.2, 3.3, 3, 2.5, 3, 3.4, 3
     ];
 
-    Highcharts.chart('container', {
+    Highcharts.chart('Highchart', {
 
         title: {
             text: 'Bell curve'

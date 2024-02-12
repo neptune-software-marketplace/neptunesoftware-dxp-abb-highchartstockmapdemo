@@ -1,8 +1,8 @@
 function Pareto() {
     
-    Highcharts.chart('container', {
+    Highcharts.chart('Highchart', {
         chart: {
-            renderTo: 'container',
+            renderTo: 'Highchart',
             type: 'column'
         },
         title: {

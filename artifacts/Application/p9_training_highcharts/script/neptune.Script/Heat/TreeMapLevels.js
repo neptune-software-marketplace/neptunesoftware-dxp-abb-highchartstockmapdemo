@@ -1,6 +1,6 @@
 function TreeMapLevels() {
 
-    Highcharts.chart('container', {
+    Highcharts.chart('Highchart', {
         series: [{
             type: "treemap",
             layoutAlgorithm: 'stripes',
