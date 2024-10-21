@@ -29,15 +29,6 @@
 			"package": {
 				"id": "3d726ff4-4f12-ed11-bd6e-000d3ab1d9ff"
 			}
-		},
-		{
-			"id": "6b7c1147-ead9-4ca1-a4e1-a7f68e06053e",
-			"application": "p9_training_highstock",
-			"title": "Highstock",
-			"description": "Highstock",
-			"package": {
-				"id": "3d726ff4-4f12-ed11-bd6e-000d3ab1d9ff"
-			}
 		}
 	],
 	"api": [],
