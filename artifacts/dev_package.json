@@ -13,21 +13,12 @@
 	"enableCICD": true,
 	"apps": [
 		{
-			"id": "e8b4e294-894d-4ffa-b606-13214f9df5d2",
-			"application": "p9_training_highcharts",
+			"id": "8b66e371-1ca8-ef11-88d0-000d3ab36833",
+			"application": "highcharts_examples",
 			"title": "Highcharts",
 			"description": "Highcharts",
 			"package": {
-				"id": "3d726ff4-4f12-ed11-bd6e-000d3ab1d9ff"
-			}
-		},
-		{
-			"id": "7bed17e7-4b43-4c26-974e-ad7f50fe5769",
-			"application": "p9_training_highmaps",
-			"title": "Highmaps",
-			"description": "Highmaps",
-			"package": {
-				"id": "3d726ff4-4f12-ed11-bd6e-000d3ab1d9ff"
+				"id": "3D726FF4-4F12-ED11-BD6E-000D3AB1D9FF"
 			}
 		}
 	],
