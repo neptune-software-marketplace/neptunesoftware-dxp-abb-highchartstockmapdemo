@@ -5,21 +5,23 @@
 	"git": {
 		"targetServers": [],
 		"remote": "https://github.com/neptune-software-marketplace/neptunesoftware-dxp-abb-highchartstockmapdemo",
-		"testServers": []
+		"testServers": [],
+		"branch": "master"
 	},
 	"name": "neptunesoftware-dxp-abb-highchartstockmapdemo",
 	"description": null,
 	"ver": "22.8.2.1044",
 	"enableCICD": true,
+	"internalReadOnly": false,
+	"oeVersion": null,
+	"excludeTemplateFiles": false,
+	"roles": [],
 	"apps": [
 		{
 			"id": "8b66e371-1ca8-ef11-88d0-000d3ab36833",
 			"application": "highcharts_examples",
 			"title": "Highcharts",
-			"description": "Highcharts",
-			"package": {
-				"id": "3D726FF4-4F12-ED11-BD6E-000D3AB1D9FF"
-			}
+			"description": "Highcharts"
 		}
 	],
 	"api": [],
@@ -35,8 +37,11 @@
 	"api_authentication": [],
 	"api_group": [],
 	"tile": [],
+	"tile_layout": [],
 	"category": [],
+	"tilegroup_layout": [],
 	"launchpad": [],
+	"launchpad_layout": [],
 	"certificates": [],
 	"role": [],
 	"systems": [],
@@ -49,5 +54,6 @@
 	"events": [],
 	"code_snippets": [],
 	"wf_determination": [],
-	"wf_taskaction": []
+	"wf_taskaction": [],
+	"theme_ui5": []
 }
